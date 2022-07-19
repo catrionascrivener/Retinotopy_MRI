@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'run': '', 'date': ''}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="MRIMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="2" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="deg" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1280, 720]" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="Retinotopy_rings" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="Welcome">
+      <TextComponent name="Welcome_text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="1" valType="num"/>
+        <Param name="name" updates="None" val="Welcome_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Welcome!&amp;#10;&amp;#10;Press 'space' to continue" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="Welcome_rsp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Welcome_rsp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Instructions">
+      <TextComponent name="Instructions_text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="1" valType="num"/>
+        <Param name="name" updates="None" val="Instructions_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Please stare at the fixation for the duration of the experiment.&amp;#10;&amp;#10;Press 'space' when you are happy to begin." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="Instructions_rsp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Instructions_rsp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="End">
+      <TextComponent name="End_text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="1" valType="num"/>
+        <Param name="name" updates="None" val="End_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="The End!&amp;#10;&amp;#10;Press 'space' to close" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="End_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="End_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Ring">
+      <CodeComponent name="Ring_code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="startRing = trigClock.getTime();&amp;#10;psychoJS.experiment.addData(&quot;startRingTime&quot;, startRing);&amp;#10;num_wedges = 24;&amp;#10;num_rings = 8;&amp;#10;num_expansions = 1;&amp;#10;wedge_size = [0, 360];&amp;#10;stim_size = [14, 14];&amp;#10;opacity = 0.98;&amp;#10;one_ring_size = (stim_size[1] / num_rings);&amp;#10;ring_sizes = np.arange(1.75, 15, 1.75);&amp;#10;circle_sizes = (np.arange(0, 14, 1.75) / 2);&amp;#10;TR = 2;&amp;#10;secs_per_expansion = 36;&amp;#10;secs_per_ring = (secs_per_expansion / ring_sizes.length);&amp;#10;frame_rate = 0.0166;&amp;#10;flash_freq = 6;&amp;#10;ms_per_pattern = Math.round((1000 / flash_freq));&amp;#10;secs_per_pattern = (ms_per_pattern / 1000);&amp;#10;frames_per_pattern = Math.round((secs_per_pattern / frame_rate));&amp;#10;frames_per_ring = Math.round((secs_per_ring / frame_rate));&amp;#10;total_frames = Math.round(((frames_per_ring * ring_sizes.length) * num_expansions));&amp;#10;total_time = (total_frames * frame_rate);&amp;#10;fix = new visual.Circle(psychoJS.window, {&quot;radius&quot;: 0.5, &quot;edges&quot;: 128, &quot;units&quot;: &quot;deg&quot;, &quot;lineWidth&quot;: 0, &quot;lineColor&quot;: null, &quot;lineColorSpace&quot;: null, &quot;fillColor&quot;: &quot;green&quot;, &quot;fillColorSpace&quot;: null, &quot;size&quot;: 0.5, &quot;ori&quot;: 0.0, &quot;opacity&quot;: null, &quot;contrast&quot;: 1.0, &quot;depth&quot;: 0, &quot;interpolate&quot;: true, &quot;lineRGB&quot;: false, &quot;fillRGB&quot;: false, &quot;name&quot;: null, &quot;autoLog&quot;: null, &quot;autoDraw&quot;: false, &quot;color&quot;: null, &quot;colorSpace&quot;: &quot;rgb&quot;});&amp;#10;for (var s, _pj_c = 0, _pj_a = util.range(num_expansions), _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    s = _pj_a[_pj_c];&amp;#10;    for (var r, _pj_f = 0, _pj_d = util.range(ring_sizes.length), _pj_e = _pj_d.length; (_pj_f &lt; _pj_e); _pj_f += 1) {&amp;#10;        r = _pj_d[_pj_f];&amp;#10;        ring_s = ring_sizes[r];&amp;#10;        circle_s = circle_sizes[r];&amp;#10;        numrings = (r + 1);&amp;#10;        T = trigClock.getTime();&amp;#10;        psychoJS.experiment.addData(((&quot;startRing&quot; + s.toString()) + r.toString()), T);&amp;#10;        smallC = new visual.Circle(psychoJS.window, {&quot;radius&quot;: circle_s, &quot;size&quot;: 1, &quot;edges&quot;: 128, &quot;units&quot;: &quot;deg&quot;, &quot;lineWidth&quot;: 0, &quot;lineColor&quot;: null, &quot;lineColorSpace&quot;: null, &quot;fillColor&quot;: &quot;grey&quot;, &quot;fillColorSpace&quot;: null, &quot;ori&quot;: 0.0, &quot;opacity&quot;: null, &quot;contrast&quot;: 1.0, &quot;depth&quot;: 0, &quot;interpolate&quot;: true, &quot;lineRGB&quot;: false, &quot;fillRGB&quot;: false, &quot;name&quot;: null, &quot;autoLog&quot;: null, &quot;autoDraw&quot;: false, &quot;color&quot;: null, &quot;colorSpace&quot;: &quot;rgb&quot;});&amp;#10;        wedge1 = new visual.RadialStim(psychoJS.window, {&quot;tex&quot;: &quot;sqrXsqr&quot;, &quot;mask&quot;: &quot;none&quot;, &quot;units&quot;: &quot;deg&quot;, &quot;pos&quot;: [0.0, 0.0], &quot;size&quot;: ring_s, &quot;radialCycles&quot;: numrings, &quot;angularCycles&quot;: num_wedges, &quot;radialPhase&quot;: 14, &quot;angularPhase&quot;: 0, &quot;ori&quot;: 0, &quot;texRes&quot;: 64, &quot;angularRes&quot;: 100, &quot;visibleWedge&quot;: wedge_size, &quot;rgb&quot;: null, &quot;color&quot;: [(- 1.0), (- 1.0), (- 1.0)], &quot;colorSpace&quot;: &quot;rgb&quot;, &quot;dkl&quot;: null, &quot;lms&quot;: null, &quot;contrast&quot;: 1.0, &quot;opacity&quot;: opacity, &quot;depth&quot;: 0, &quot;rgbPedestal&quot;: [0.0, 0.0, 0.0], &quot;interpolate&quot;: false, &quot;name&quot;: &quot;Wedge1&quot;, &quot;autoLog&quot;: null, &quot;maskParams&quot;: null});&amp;#10;        wedge2 = new visual.RadialStim(psychoJS.window, {&quot;tex&quot;: &quot;sqrXsqr&quot;, &quot;mask&quot;: &quot;none&quot;, &quot;units&quot;: &quot;deg&quot;, &quot;pos&quot;: [0.0, 0.0], &quot;size&quot;: ring_s, &quot;radialCycles&quot;: numrings, &quot;angularCycles&quot;: num_wedges, &quot;radialPhase&quot;: 14, &quot;angularPhase&quot;: 0, &quot;ori&quot;: 0, &quot;texRes&quot;: 64, &quot;angularRes&quot;: 100, &quot;visibleWedge&quot;: wedge_size, &quot;rgb&quot;: null, &quot;color&quot;: [(- 1.0), (- 1.0), (- 1.0)], &quot;colorSpace&quot;: &quot;rgb&quot;, &quot;dkl&quot;: null, &quot;lms&quot;: null, &quot;contrast&quot;: (- 1.0), &quot;opacity&quot;: opacity, &quot;depth&quot;: 0, &quot;rgbPedestal&quot;: [0.0, 0.0, 0.0], &quot;interpolate&quot;: false, &quot;name&quot;: &quot;Wedge2&quot;, &quot;autoLog&quot;: null, &quot;maskParams&quot;: null});&amp;#10;        for (var frameN, _pj_i = 0, _pj_g = util.range(Math.round((frames_per_ring / (frames_per_pattern * 2)))), _pj_h = _pj_g.length; (_pj_i &lt; _pj_h); _pj_i += 1) {&amp;#10;            frameN = _pj_g[_pj_i];&amp;#10;            for (var frameN, _pj_l = 0, _pj_j = util.range((frames_per_pattern * 2)), _pj_k = _pj_j.length; (_pj_l &lt; _pj_k); _pj_l += 1) {&amp;#10;                frameN = _pj_j[_pj_l];&amp;#10;                if (((0 &lt;= frameN) &amp;&amp; (frameN &lt;= frames_per_pattern))) {&amp;#10;                    wedge1.draw(psychoJS.window);&amp;#10;                    smallC.draw(psychoJS.window);&amp;#10;                    fix.draw(psychoJS.window);&amp;#10;                    psychoJS.window.flip();&amp;#10;                }&amp;#10;                if (((frames_per_pattern &lt; frameN) &amp;&amp; (frameN &lt;= (frames_per_pattern + frames_per_pattern)))) {&amp;#10;                    wedge2.draw(psychoJS.window);&amp;#10;                    smallC.draw(psychoJS.window);&amp;#10;                    fix.draw(psychoJS.window);&amp;#10;                    psychoJS.window.flip();&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="## Parameters of visual.RadialStim&amp;#10;# angular cycles: number of spokes&amp;#10;# angular phase: orientation of the texture&amp;#10;# angular res: number of triangles used&amp;#10;# radial cycles: the number of rings&amp;#10;# radial phas: phase of the texture from the centre to the&amp;#10;#   perimiter of the stimulus. Can be used to drift rings&amp;#10;#   inwards/outwards&amp;#10;# sf: spatial frequency of the grating texture&amp;#10;#   if units are deg, sf is cycles per degree&amp;#10;# visible wedge: (start,end), (0,360) is full visibility&amp;#10;# auto draw: whether the stimulus should be automatically drawn&amp;#10;#    on each frame flip.&amp;#10;# auto log: every change logged?&amp;#10;# contrast: 1 visible, 0 no contrast, -1 reversed&amp;#10;# ori: orientation in degrees. 0 vertical, positive values&amp;#10;#   rotate clockwise&amp;#10;# pos: centre of the stimuli&amp;#10;&amp;#10;#ringClock = core.Clock()&amp;#10;startRing = trigClock.getTime() # in relation to triggers&amp;#10;thisExp.addData('startRingTime',startRing)&amp;#10;&amp;#10;## Set some parameters for drawing the stimuli&amp;#10;num_wedges = 24&amp;#10;num_rings = 8 #total of 8 rings&amp;#10;num_expansions =1 #8 steps outwards&amp;#10;wedge_size = (0,360) #full circle this time&amp;#10;stim_size = (14, 14) #degrees&amp;#10;opacity = 0.98&amp;#10;one_ring_size = stim_size[1]/num_rings #1.75&amp;#10;#ring_sizes = numpy.arange(one_ring_size,stim_size[1],stim_size[1]+1)&amp;#10;ring_sizes = np.arange(1.75,15,1.75) # should be proportional to stim_size&amp;#10;circle_sizes = np.arange(0,14,1.75)/2 # radius! one size behind the rings&amp;#10;&amp;#10;## Set the timings and frame numbers&amp;#10;TR = 2&amp;#10;secs_per_expansion = 36 #s&amp;#10;secs_per_ring = secs_per_expansion/len(ring_sizes) # 4.5s&amp;#10;frame_rate = 0.0166 #s&amp;#10;flash_freq = 6 #hz&amp;#10;ms_per_pattern = round(1000/flash_freq) #1666.66 or 167ms&amp;#10;secs_per_pattern = ms_per_pattern/1000 # 0.167s&amp;#10;frames_per_pattern = round(secs_per_pattern/frame_rate) # 10&amp;#10;frames_per_ring = round(secs_per_ring/frame_rate) #271&amp;#10;total_frames = round(frames_per_ring*len(ring_sizes)*num_expansions) #17344&amp;#10;total_time = total_frames*frame_rate #287.91s or 4.79mins&amp;#10;&amp;#10;## draw a fixation circle&amp;#10;fix = visual.Circle(win,radius=0.5, edges=128, units='deg', lineWidth=0,&amp;#10;    lineColor=None, lineColorSpace=None, fillColor='green', fillColorSpace=None,&amp;#10;    size=0.5, ori=0.0, opacity=None, contrast=1.0, depth=0, &amp;#10;    interpolate=True, lineRGB=False, fillRGB=False, name=None, autoLog=None,&amp;#10;    autoDraw=False, color=None, colorSpace='rgb')&amp;#10;    &amp;#10;## Loop over 8 ring cycles&amp;#10;for s in range(num_expansions):&amp;#10;## Loop over ring positions&amp;#10;    for r in range(len(ring_sizes)):&amp;#10;        ring_s = ring_sizes[r]&amp;#10;        circle_s = circle_sizes[r]&amp;#10;        numrings = r+1 # python index starts at 0&amp;#10;        &amp;#10;        T = trigClock.getTime() # save time&amp;#10;        thisExp.addData(('startRing'+str(s)+str(r)),T)&amp;#10;            &amp;#10;        # draw a small circle to hide central rings&amp;#10;        # two rings are always visible&amp;#10;        smallC = visual.Circle(win,radius=circle_s,size=1,edges=128, units='deg', lineWidth=0,&amp;#10;            lineColor=None, lineColorSpace=None, fillColor='grey', fillColorSpace=None,&amp;#10;            ori=0.0, opacity=None, contrast=1.0, depth=0, &amp;#10;            interpolate=True, lineRGB=False, fillRGB=False, name=None, autoLog=None,&amp;#10;            autoDraw=False, color=None, colorSpace='rgb')&amp;#10;        &amp;#10;        # Draw wedges with correct orientation&amp;#10;        # wedge pattern 1 (contrast 1)&amp;#10;        wedge1 = visual.RadialStim(win,tex='sqrXsqr', mask='none',&amp;#10;            units='deg', pos=(0.0, 0.0), size=ring_s, radialCycles=numrings,&amp;#10;            angularCycles=num_wedges, radialPhase=14, angularPhase=0, ori=0,&amp;#10;            texRes=64, angularRes=100, visibleWedge=wedge_size, rgb=None,&amp;#10;            color=(-1.0, -1.0, -1.0), colorSpace='rgb', dkl=None, lms=None,&amp;#10;            contrast=1.0, opacity=opacity, depth=0, rgbPedestal=(0.0, 0.0, 0.0), &amp;#10;            interpolate=False, name='Wedge1', autoLog=None, maskParams=None)&amp;#10;&amp;#10;        # wedge pattern 2 (contrast -1)&amp;#10;        wedge2 = visual.RadialStim(win,tex='sqrXsqr', mask='none',&amp;#10;            units='deg', pos=(0.0, 0.0), size=ring_s, radialCycles=numrings,&amp;#10;            angularCycles=num_wedges, radialPhase=14, angularPhase=0, ori=0,&amp;#10;            texRes=64, angularRes=100, visibleWedge=wedge_size, rgb=None,&amp;#10;            color=(-1.0, -1.0, -1.0), colorSpace='rgb', dkl=None, lms=None,&amp;#10;            contrast=-1.0, opacity=opacity, depth=0, rgbPedestal=(0.0, 0.0, 0.0), &amp;#10;            interpolate=False, name='Wedge2', autoLog=None, maskParams=None)&amp;#10;&amp;#10;        # loop over all frames per ring - 2 frames rounded out!&amp;#10;        for frameN in range(round(frames_per_ring/(frames_per_pattern*2))): &amp;#10;            # loop over one patern reversal&amp;#10;            for frameN in range(frames_per_pattern*2): &amp;#10;                if 0 &lt;= frameN &lt;= frames_per_pattern:&amp;#10;                    wedge1.draw(win)&amp;#10;                    smallC.draw(win)&amp;#10;                    fix.draw(win)&amp;#10;                    win.flip()                    &amp;#10;                if frames_per_pattern &lt; frameN &lt;= (frames_per_pattern+frames_per_pattern):&amp;#10;                    wedge2.draw(win)&amp;#10;                    smallC.draw(win)&amp;#10;                    fix.draw(win)&amp;#10;                    win.flip()            &amp;#10;            &amp;#10;# end&amp;#10;" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="endRing = trigClock.getTime();&amp;#10;psychoJS.experiment.addData(&quot;endRingTime&quot;, endRing);&amp;#10;continueRoutine = true;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="endRing = trigClock.getTime()&amp;#10;thisExp.addData('endRingTime',endRing)&amp;#10;&amp;#10;continueRoutine = True" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="Ring_code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <PolygonComponent name="Fixation_circle">
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="green" valType="color"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="green" valType="color"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="num"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="Fixation_circle" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="None" val="circle" valType="str"/>
+        <Param name="size" updates="constant" val="(0.5, 0.5)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="8.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="WaitForTriggers">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="trigKeyboard = new keyboard.Keyboard();&amp;#10;trigClock = new core.Clock();&amp;#10;textTrig = new visual.TextStim(psychoJS.window, &quot;Waiting for scanner...&quot;, {&quot;color&quot;: &quot;white&quot;, &quot;colorSpace&quot;: &quot;rgb&quot;, &quot;height&quot;: 1});&amp;#10;textTrig.draw(psychoJS.window);&amp;#10;psychoJS.window.flip();&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="trigKeyboard = keyboard.Keyboard()&amp;#10;trigClock = core.Clock()&amp;#10;&amp;#10;# draw waiting text&amp;#10;textTrig = visual.TextStim(win, 'Waiting for scanner...',&amp;#10;     color=('white'), colorSpace='rgb', height=1)&amp;#10;textTrig.draw(win)&amp;#10;win.flip()" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="&amp;#10;# how many triggers to wait for?&amp;#10;triggers = 4 &amp;#10;&amp;#10;# wait for keypresses here&amp;#10;rtList = []&amp;#10;count = 0&amp;#10;while count &lt; triggers:&amp;#10;    if trigKeyboard.getKeys(keyList=[&quot;s&quot;]):&amp;#10;        count = count+1     &amp;#10;        rt = trigClock.getTime()&amp;#10;        thisExp.addData('trigKeyboard.rt',rt)&amp;#10;        thisExp.nextEntry()&amp;#10;    &amp;#10;    &amp;#10;" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="triggers = 4;&amp;#10;rtList = [];&amp;#10;count = 0;&amp;#10;while ((count &lt; triggers)) {&amp;#10;    if (trigKeyboard.getKeys({&quot;keyList&quot;: [&quot;s&quot;]})) {&amp;#10;        count = (count + 1);&amp;#10;        rt = trigClock.getTime();&amp;#10;        psychoJS.experiment.addData(&quot;trigKeyboard.rt&quot;, rt);&amp;#10;        psychoJS.experiment.nextEntry();&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Welcome"/>
+    <Routine name="Instructions"/>
+    <Routine name="WaitForTriggers"/>
+    <Routine name="Fixation"/>
+    <Routine name="Ring"/>
+    <Routine name="Fixation"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
